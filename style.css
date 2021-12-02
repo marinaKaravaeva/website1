@@ -1,0 +1,173 @@
+
+body{
+    font-family: Montserrat;
+    line-height: 30px;
+    background:#f0f0f0;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+    background: white;
+}
+.header-content{
+    width: 1260px;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content div{
+    display: flex;
+    align-items:center
+    
+
+}
+
+.header-content div p{
+    margin-left: 15px;
+}
+
+.main{
+    width: 1260px;
+    margin: 0 auto;
+}
+
+
+.logo-img{
+    width: 64px;
+    height: 41px;
+}
+.menu-img{
+    width: 22px;
+    height: 14px;
+}
+
+.cart-img{
+    width: 18px;
+    height: 11px;
+}
+
+.logo-img + p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.number{
+    font-weight: 700;
+}
+
+.light-grey{
+    color:#A8A8A8;
+}
+
+.delivery{
+    display: flex;
+    flex-direction: column;
+
+}
+.delivery h2{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.delivery-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delivery-wrapper div{
+    width: 610px;
+    margin-bottom: 30px;
+}
+.delivery-wrapper div:nth-child(even){
+    margin-left: 40px;
+}
+
+.subscribtion{
+    background: url("img/img5.png");
+    width: 100%;
+    height: 192px;
+    position: relative;
+
+}
+
+.subscribtion-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+   
+}
+
+
+.subscribtion-wrapper p{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+::placeholder{
+    color: #A8A8A8;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+input{
+    width: 250px;
+    height: 50px;
+    background: white;
+    border: none;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 157px;
+    height: 50px;
+    background:#B798FF;
+    color: white;
+    border:none;
+    font-family: Montserrat;
+    margin-left: 20px;
+}
+
+.payments-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payments-wrapper > div{
+    width: 393px;
+    background: white;
+}
+
+.payments h2{
+    font-weight: 600;
+    size: 26px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.payments-wrapper h4{
+    font-size: 16px;
+}
+
+.text-payments{
+    width: 310px;
+    margin: 0 auto;
+}
+
+footer{
+    width: 1920px;
+    background:#dddddd;
+    height: 186px;
+    margin-top: 60px;
+}
